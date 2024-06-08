@@ -11,17 +11,14 @@ const { sendTransaction } = require('./src/sendTransaction');
   process.stdout.write('\x1Bc');
   console.log(
     `
-###  ##    ####   ####     ####       ####    ## ##   ###  ##           ### ##    ## ##   #### ##  
-  ## ##     ##     ##       ##         ##    ##   ##    ## ##            ##  ##  ##   ##  # ## ##  
- # ## #     ##     ##       ##         ##    ##   ##   # ## #            ##  ##  ##   ##    ##     
- ## ##      ##     ##       ##         ##    ##   ##   ## ##             ## ##   ##   ##    ##     
- ##  ##     ##     ##       ##         ##    ##   ##   ##  ##            ##  ##  ##   ##    ##     
- ##  ##     ##     ##  ##   ##  ##     ##    ##   ##   ##  ##            ##  ##  ##   ##    ##     
-###  ##    ####   ### ###  ### ###    ####    ## ##   ###  ##           ### ##    ## ##    ####    
+    ===============================================
+    |   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  |
+    |   $ GANK ASTARAL NI BOSSS..!!! $             |
+    ===============================================
   `.cyan
   );
-  console.log('     Created by HappyCuanAirdrop'.magenta);
-  console.log('    https://t.me/HappyCuanAirdrop'.magenta);
+  console.log('     Created by Astral05'.magenta);
+  console.log('    https://astral05.com'.magenta);
   console.log();
 
   const walletChoice = parseInt(
