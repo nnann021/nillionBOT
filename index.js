@@ -17,8 +17,8 @@ const { sendTransaction } = require('./src/sendTransaction');
     ===============================================
   `.cyan
   );
-  console.log('     Created by Astral05'.magenta);
-  console.log('    https://astral05.com'.magenta);
+  console.log('     BERAT DEK'.magenta);
+  console.log('    IJEK BELAJAR'.magenta);
   console.log();
 
   const walletChoice = parseInt(
