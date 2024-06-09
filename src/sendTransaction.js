@@ -19,7 +19,7 @@ async function sendTransaction(wallet) {
   const recipient = await getRecipientAddress();
   const amount = coins(Math.floor(Math.random() * 10) + 1, 'unil');
 
-  console.log(`Send 0.00${amount[0].amount} $NIL to`.yellow, recipient);
+  console.log(`Send 0.0${amount[0].amount} $NIL to`.yellow, recipient);
 
   const [firstAccount] = await wallet.getAccounts();
 
